@@ -9,7 +9,7 @@
   \setbeamercolor{alerted text}{fg=blue}
 } 
 
-\usepackage{microtype,verbatim,parskip,graphicx,siunitx,nicefrac,booktabs,sansmathfonts,textpos,textgreek} 
+\usepackage{microtype,verbatim,parskip,graphicx,siunitx,booktabs,sansmathfonts,textpos,textgreek} 
 \usepackage[version=4]{mhchem}
 %\usepackage{chemfig}\setchemfig{atom sep=2.5em}
 
@@ -23,13 +23,7 @@
 \usepackage[helvet]{sfmath}
 
 \def\mydeck{\mylabel\space\mydeckno}
-\def\half{\nicefrac{1}{2}}
-\def\third{\nicefrac{1}{3}}
-\def\quarter{\nicefrac{1}{4}}
-\def\threequarter{\nicefrac{3}{4}}
-\def\twothird{\nicefrac{2}{3}}
 \def\deg{$^{\circ}$}
-\def\dd{\end{document}} % useful for debugging
 \newcommand*\unit[1]{\textnormal{ #1}}
 
 % provides \obox{0}{0}{1cm}{1cm}   where: x y wd ht
@@ -39,4 +33,5 @@
 % provides \tbox{0}{0}{text} where: x y text
 \newcommand\tbox[3]{\begin{textblock}{8}(#1,#2)#3\end{textblock}}
 
+% quick reference formatting
 \newcommand*\qref[4]{\textit{#1} \textbf{#2}, \textit{#3}, #4.}
