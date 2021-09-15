@@ -1,0 +1,157 @@
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\documentclass[10pt]{beamer}
+\mode<presentation>
+{
+  \usetheme{Hannover}      
+  \usecolortheme{rose}
+  \usefonttheme{structurebold}  
+  \setbeamertemplate{navigation symbols}{} 
+  \setbeamertemplate{footline}{}   
+  \setbeamertemplate{frametitle}{\centering\normalsize\bfseries\itshape\insertframetitle\par\vskip-7pt\hrulefill} 
+  \setbeamercolor{alerted text}{fg=blue}
+} 
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\usepackage{microtype}
+\usepackage{comment}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{siunitx}[=v2]
+\usepackage{booktabs}
+\usepackage{upgreek} 
+\usepackage{nicefrac}
+	\def\half{\nicefrac{1}{2}}
+	\def\third{\nicefrac{1}{3}}
+	\def\quarter{\nicefrac{1}{4}}
+	\def\threequarter{\nicefrac{3}{4}}
+	\def\twothird{\nicefrac{2}{3}}
+\usepackage[version=4]{mhchem}
+\usepackage{sansmathfonts} % use greek cmss instead of cm
+\usepackage{helvet} % use helvet as normal text
+\usepackage[helvet]{sfmath} % use helvet math
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\title{General Chemistry}
+	\def\mylabel{Chapter}
+	\def\mydeckno{1}
+	\def\myterm{SP2020}
+	\def\myclass{CHEM120}
+	\def\mydeck{\mylabel\space\mydeckno}
+\author{\mydeck}
+\institute{}
+\date{}
+
+\begin{document}
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\begin{frame}
+  \vspace*{-1cm}\titlepage
+  \vspace*{-2cm}{\centering \includegraphics[scale=0.1]{figures/zvulogo.jpg}\\[3ex]
+                            \scriptsize John Terhorst, Ph.D. \\ \myterm/\myclass \\ }
+\end{frame}
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\begin{frame}[plain]{} 
+%  \bigskip \tiny \centering \copyright\ \the\year\ by John Terhorst \\[1ex]
+   \bigskip \scriptsize \centering Do not distribute without permission. \\[1ex]
+   Unless otherwise noted, all figures are from \\
+   McMurry \& Fay \textit{General Chemistry: Atoms First}, 2e \\
+   Copyright \copyright\ 2014 by Pearson Education, Inc., Saddle River, NJ. \\[1ex]
+   Adoption of the above textbook provides the instructor with legal permission \\
+   for use of content assets found within the Instructor Support Materials.
+\end{frame}
+
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\section{Introduction}
+
+\subsection{Basics}
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\begin{frame}[t]{Title of the slide}
+
+text
+
+\begin{equation*}
+G^\prime_{\textnormal{pol},i} = 
+\frac{-166.0}{R_{\textnormal{vdW},i}+\phi+P_1} + 
+\sum^{1,2}\frac{P_2V_j}{r^4_{ij}} + 
+\sum^{1,3}\frac{P_3V_j}{r^4_{ij}} + 
+\sum^{1,\ge 4}\frac{P_4V_jCCF}{r^4_{ij}}
+\end{equation*}
+
+\begin{equation*}
+\alpha\beta\lambda\nu\gamma~\upalpha\upbeta\uplambda~12324
+\end{equation*}
+
+See the \alert{definition}
+
+\begin{itemize}
+    \item hi
+\end{itemize}
+
+\end{frame}
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\section*{Summary}
+
+\begin{frame}[shrink=10]{\mydeck\ Summary}
+    \tableofcontents[subsectionstyle=hide/hide/hide]
+\end{frame}
+
+\begin{comment}
+\begin{frame}{End of \mydeck} 
+\end{frame}
+\end{comment}
+
+\begin{frame}{Notes} 
+\end{frame}
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\end{document}
